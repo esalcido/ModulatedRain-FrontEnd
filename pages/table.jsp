@@ -1,0 +1,98 @@
+<div class="jumbo-contain2">
+
+	<div ng-controller="tabCtrl"> 
+	        <div ng-class="{'active':view_tab =='tab5'}"><a ng-click="changeTab('tab5')" href="#chart"><i class="fa fa-table fa-1x"></i> Switch to Chart View</a></div>
+	</div>
+	
+	<h1 class="page-header" id="sensor"><i class="fa fa-table fa-1x"></i> Sensor Logs Table</h1>
+	<div class="table-responsive" ng-controller="tableCtrl">
+	    <table class="table table-striped">
+	        <thead>
+	        <tr>
+	            <th>File #</th>
+	            <th>Date</th>
+	            <th>High temperature/humidity</th>
+	            <th>Low temperature/humidity</th>
+	            <th>Average temperature/humidity</th>
+	            <th>Precipitation</th>
+	        </tr>
+	        </thead>
+	        <tbody>
+	        <tr>
+	            <td>1,001</td>
+	            <td>12/12/12</td>
+	            <td>99/40</td>
+	            <td>34/20</td>
+	            <td>70/30</td>
+	            <td>No</td>
+	        </tr>
+	        <tr>
+	            <td>1,302</td>
+	            <td>12/12/09</td>
+	            <td>102/33</td>
+	            <td>22/50</td>
+	            <td>65/39</td>
+	            <td>No</td>
+	        </tr>
+	        <tr>
+	            <td>1,203</td>
+	            <td>3/14/09</td>
+	            <td>60/40</td>
+	            <td>65/50</td>
+	            <td>70/30</td>
+	            <td>Yes</td>
+	        </tr>
+	        <tr>
+	            <td>1,701</td>
+	            <td>12/12/12</td>
+	            <td>99/40</td>
+	            <td>34/20</td>
+	            <td>70/30</td>
+	            <td>No</td>
+	        </tr>
+	        <tr>
+	            <td>1,602</td>
+	            <td>1/12/09</td>
+	            <td>102/33</td>
+	            <td>22/50</td>
+	            <td>65/39</td>
+	            <td>No</td>
+	        </tr>
+	        <tr>
+	            <td>1,903</td>
+	            <td>3/4/09</td>
+	            <td>50/20</td>
+	            <td>-1/-1</td>
+	            <td>50/20</td>
+	            <td>Yes</td>
+	        </tr>
+	        <tr>
+	            <td>1,501</td>
+	            <td>12/12/12</td>
+	            <td>99/40</td>
+	            <td>34/20</td>
+	            <td>70/30</td>
+	            <td>No</td>
+	        </tr>
+	        <tr>
+	            <td>102</td>
+	            <td>11/12/99</td>
+	            <td>102/33</td>
+	            <td>22/50</td>
+	            <td>65/39</td>
+	            <td>No</td>
+	        </tr>
+	        <tr>
+	            <td>100</td>
+	            <td>3/24/09</td>
+	            <td>99/99</td>
+	            <td>1/1</td>
+	            <td>50/50</td>
+	            <td>Yes</td>
+	        </tr>
+	        </tbody>
+	    </table>
+	</div>
+	<!-- END table responsive-->
+
+</div>

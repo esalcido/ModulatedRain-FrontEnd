@@ -1,0 +1,34 @@
+body {
+	background-image: url("/img/grass-med.jpg");
+	height = 100%;
+	width = 100%;
+}
+
+.form-signin-container {
+	max-width: 400px;
+	padding: 50px 50px;
+	margin: 10px auto;
+	border-radius: 10%;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+}
+
+#logo-container {
+	margin: 10px auto;
+	text-align: center;
+}
+
+#logo-top{
+	height: 175px;	
+}
+
+#j_username {
+	margin: 10px auto;
+	width: 100%;
+}
+
+#j_password {
+	margin: 10px auto;
+	width: 100%;
+}

@@ -1,0 +1,70 @@
+/*!
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+h1,h2,h3,h4,h5,h6,p{margin-bottom:  20px;}
+h1{font-size: 48px;}
+h1 a { color:#333;text-decoration: none;}
+h2{font-size: 36px;color:#3498DB;}
+body{font-size: 20px;font-family: 'Open Sans Condensed', sans-serif;padding: 40px;}
+
+.btn{
+  display: inline-block;
+  padding: 20px 30px;
+  border: 2px solid #ddd;
+  color: #ddd;
+  text-decoration: none;
+  margin: 0px 10px 10px 0;
+  transition: all .6s;
+  min-width: 200px;
+  text-align: center;
+}
+.btn:focus { outline:none !important }
+.btn:hover{
+  background: #ddd;
+  color: #fff;
+}
+
+/*Medium Size*/
+.btn.md{
+  padding: 20px 40px;
+}
+
+/*Big Size*/
+btn.lg{
+  padding: 24px 48px;
+}
+
+
+/*Border Radius*/
+.btn.style-1{
+  border-radius: 10px;
+}
+.btn.style-2{
+  border-radius: 40px;
+}
+
+.btn.color-1{
+  border-color: #C0392B;
+  color:#C0392B;
+}
+.btn.color-1:hover {
+  background: #C0392B;
+  color: #fff;
+}
+/* Color 2 #27AE60 */
+.btn.color-2 {border-color: #27AE60;color: #27AE60;}
+.btn.color-2:hover {background: #27AE60;color: #fff;}
+
+/*red*/
+.btn.color-3{
+ /* border-color: #ff0000;*/
+ background: #ff0000;
+  color:#fff;
+  
+}
+.btn.color-3:hover {
+  background: #ff0000;
+  color: #fff;
+}
